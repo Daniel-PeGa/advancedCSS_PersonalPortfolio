@@ -1,0 +1,13 @@
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.abut {
+    margin: 5px;
+}
+
+.foto-yo {
+    max-width: 200px;
+    padding: 15px;
+}
