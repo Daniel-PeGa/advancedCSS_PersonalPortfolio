@@ -22,3 +22,9 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 This is the way the application looks when deployed:
+<img width="1440" alt="Screen Shot 2022-07-22 at 08 19 41" src="https://user-images.githubusercontent.com/106125888/180447545-d15d75f3-f484-4526-84b1-f147b7ddd53e.png">
+
+
+
+And this is the link of the deployed application:
+https://daniel-pega.github.io/final-module-2-challenge/
