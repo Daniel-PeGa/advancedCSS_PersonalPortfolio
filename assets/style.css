@@ -31,10 +31,17 @@ body {
     font-size: 20px;
     max-width: 87%;
 }
+.aboutNPic {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+}
 .foto-yo {
     
     max-width: 200px;
     padding: 15px;
+    margin: 3%;
 }
 
 .about-me{
@@ -55,7 +62,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    float: right;
+    min-width: 90%;
 }
 .climas-pic {
     max-width: 150px;
@@ -102,7 +109,7 @@ li {
     padding: 10px;
   }
 
-@media screen and ( max-width: 1024px){
+@media screen and ( max-width: 768px){
     .aboutNPic {
         display: flex;
         flex-direction: row;
@@ -110,5 +117,30 @@ li {
         align-items: center;
     }
     
+    .smList{
+        display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    }
     
 }    
+
+@media screen and ( max-width: 425px) {
+    .aboutNPic {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and ( max-width: 375px) {
+    .eachWork {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
+    
+}
