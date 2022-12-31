@@ -11,18 +11,28 @@ body {
     flex-direction: row;
     max-width: 98%;
 }
+.abut {
+    margin: 5px;
+}
 
 .navBackground {
     width: 100%;
 }
 
-.abut {
-    margin: 5px;
+.wholeBody {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
 }
+
+
 .info-yo {
     font-size: 20px;
+    max-width: 87%;
 }
 .foto-yo {
+    
     max-width: 200px;
     padding: 15px;
 }
@@ -32,7 +42,6 @@ body {
     display: flex;
     float: right;
     flex-direction: column;
-    margin: 0px 75px;
 }
 
 .workText{
@@ -40,25 +49,35 @@ body {
     display: flex;
     float: right;
     flex-direction: row;
+
 }
 .prevWork {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    max-width: 800px;
     float: right;
-    margin: -70px 345px 0px 0px;
 }
 .climas-pic {
     max-width: 150px;
 }
-.smList {
-    margin: 0px -25px;
+
+.contact-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
 }
+
 .contact-me-list {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    margin: 5px 5px 5px 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.smList {
+    display: flex;
+    flex-direction: row;
+    width: auto;
 }
 
 li {
@@ -67,12 +86,29 @@ li {
 .fa {
     padding: 15px;
     font-size: 35px;
-    max-width: 250px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
   }
 
-@media screen and ( max-width: 1444px){
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #282C35;
+    color: #F9F6EE;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+  }
+
+@media screen and ( max-width: 1024px){
+    .aboutNPic {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        align-items: center;
+    }
+    
     
 }    
