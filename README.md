@@ -27,4 +27,4 @@ This is the way the application looks when deployed:
 
 
 And this is the link of the deployed application:
-https://daniel-pega.github.io/advancedCSS_PersonalPortfolio/
+ https://daniel-pega.github.io/advancedCSS_PersonalPortfolio/
