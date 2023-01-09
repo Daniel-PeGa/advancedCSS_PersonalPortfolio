@@ -1,11 +1,14 @@
-# final-module-2-challenge
-
+# advancedCSS_PersonalPortfolio
 
 This is a personal, professional portafolio with the intent of fulfilling the following acceptance criteria for in case I need a job:
+
+## User Story
 
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
+## Acceptance Criteria
 
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -21,10 +24,14 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+## Screenshot
+
 This is the way the application looks when deployed:
-<img width="1440" alt="Screen Shot 2022-07-22 at 08 19 41" src="https://user-images.githubusercontent.com/106125888/180447545-d15d75f3-f484-4526-84b1-f147b7ddd53e.png">
+
+<img width="1470" alt="Screenshot 2023-01-08 at 7 00 07 PM" src="https://user-images.githubusercontent.com/106125888/211227750-4f4bf6cd-cdb4-4454-8a72-866f5ca27e1f.png">
 
 
+## Deployed Application
 
 And this is the link of the deployed application:
  https://daniel-pega.github.io/advancedCSS_PersonalPortfolio/
