@@ -126,7 +126,7 @@ li {
     
 }    
 
-@media screen and ( max-width: 425px) {
+@media screen and ( max-width: 500px) {
     .aboutNPic {
         display: flex;
         flex-direction: column;
